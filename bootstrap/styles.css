@@ -1,0 +1,40 @@
+/*HEADER STYLES*/
+header {
+
+	background-color:#3f4345;
+	color: #FFFFFF;
+}
+
+header a:link {
+	color:#c5dbf1;
+}
+
+header a:visited{
+	color:#c5dbf1;
+}
+
+header a:hover{
+	color: #FFFFFF;
+}
+/*END HEADER STYLES*/
+
+/*FOOTER STYLES*/
+footer {
+	background-color:#3f4345;
+	color: #FFFFFF;
+	border-top: 5px;
+	
+}
+
+footer a:link {
+	color:#c5dbf1;
+}
+
+footer a:visited{
+	color:#c5dbf1;
+}
+
+footer a:hover{
+	color: #FFFFFF;
+}
+/*END FOOTER STYLES*/

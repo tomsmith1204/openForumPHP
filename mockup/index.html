@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>openForum</title>
+ 	<link rel="stylesheet" href="styles.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">	
+</head>
+<body>
+	<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8"name="viewport" content="width=device-width, initial-scale=1">
+	<title>openForum</title>
+ 	<link rel="stylesheet" href="styles.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">	
+</head>
+<body>
+		<header>
+		<nav class="navbar navbar-inverse" role="navigation">
+			<div class="container-fluid">
+				<span>
+					Not a member? Please consider <a href="#">signing up</a>!
+				</span>
+				<form class="navbar-form navbar-right" role="search">
+					<div class="form-group form-group-sm">
+				    	<input type="text" class="form-control" placeholder="Username">
+				    	<input type="text" class="form-control" placeholder="Password">
+				  	</div>
+				  	<button type="login" class="btn btn-success btn-sm">Login!</button>
+				</form>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			<h1><span class="black">open</span>Forum</h1>
+		</div>
+
+		<nav class="navbar navbar-default" role="navigation">
+			<div class="container-fluid">
+				<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				        <span class="sr-only">Toggle navigation</span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">Nav</a>
+		 			</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="index.php">
+								Home 
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li><a href="forum.php">Forum</a></li>
+						<li><a href="userlist.php">User List</a></li>
+						<li><a href="forum.php">Subscriptions <span class="badge">12</span></a></li>	      		
+					</ul>
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+				    		<input type="text" class="form-control" placeholder="Search">
+				  		</div>
+				 		<button type="submit" class="btn btn-primary">Submit</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</header>
+<!-- END OF HEADER FILE -->
+<!-- BEGIN CONTENT -->
+	<br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-9">
+                	<table class="table table-hover">
+  						<tr>
+  							<th></th>
+	  						<th>Author</th>
+	  						<th>Started On</th>
+	  						<th>Replies</th>
+	  						<th>Title</th>
+	  						<th>Last Post</th>
+                		</tr>
+                		<tr>
+							<td></td>
+							<td><a href="#">Did anyone see Game of Thones last night?</a></td>
+							<td><a href="#">Lady Stoneheart</a></td>
+							<td>Today @ 11:57AM</td>
+							<td>12 Replies
+							<td>by: <a href="#">Halfman</a></td>
+                		</tr>
+                		<tr>
+                			<td></td>
+							<td><a href="#">Leshawn McCoy for President!</a></td>
+   							<td><a href="#">BirdsOfPrey03</a></td>
+    						<td>Today @ 9:25AM</td>
+    						<td>2 Replies</td>
+    						<td>by: <a href="#">Fuck_Dallas</a></td>
+                		</tr>
+                		<tr>
+                			<td></td>
+							<td><a href="#">New iPhone cracked screen</a></td>
+							<td><a href="#">Steve Unemployed</a></td>
+							<td> Dec 7 @ 11:12PM </td> 
+							<td> 52 Replies </td> 
+							<td>by: <a href="#">Nelson Muntz</a> </td> 
+						</tr>
+                		<tr>
+                			<td> </td> 
+                			<td><a href="#">Where are my keys</a></td>
+                			<td> <a href="#">Sonofa...</a> </td>
+                			<td> Dec7 @ 6:22PM </td>
+                			<td> 2 Replies </td>
+                			<td> by: <a href="#">Your_Wife</a> </td>
+                		</tr>
+					</table>
+                </div>
+                <div class="col-md-3">
+                    <table class="table table-hover">
+                    	<tr>
+                    		<th> Top Posters </th>
+      					</tr>
+        				<tr>
+         					<td> <a href="#">Sophia Miles</a> </td>
+        				</tr>
+        				<tr>
+          					<td> <a href="#">Nick Frederick</a> </td>
+        				</tr>
+        				<tr>
+          					<td> <a href="#">Amber Smith</a> </td>
+        				</tr>
+					    <tr>
+					        <td> <a href="#">Tom Tug</a> </td>
+					    </tr>
+					    <tr>
+					        <td> <a href="#">Ally O'Cat</a> </td>
+					    </tr>
+					</table>
+                </div>
+            </div>
+		</div>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-3">
+					<span><em>Copyright &copy; <script SRC="js/copyright.js"></script> Thomas Smith</em></span>
+					<br><br>
+					This software is offered free of charge under Creative Commons Attribution 3.0 United States <a href="https://creativecommons.org/licenses/by/3.0/us/">(CC BY 3.0 US)</a>.
+					<br><br>
+					<span class="bracket">{</span>
+					 Get the source code from <a href="https://github.com/tomsmith1204/openforum" target="_blank"><img src="assets/GitHub_Logo.png" alt="github logo"></a>.
+					 <span class="bracket">}</span>
+				</div>
+				<div class="col-md-3">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</div>
+				<div class="col-md-3">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est labor
+				</div>
+		    	<div class="col-md-3">
+		            <table class="table">
+		            	<tr>
+		      				<th colspan="4">
+		          				Baked with <span class="love">love</span> using
+		      				</th>
+		      			</tr>
+		        		<tr>
+		         			<td>HTML 5</td>
+      						<td>CSS 3</td>
+      						<td>Javascript</td>
+      						<td>JQuery </td>
+    					</tr>
+    					<tr>
+    						<td>Linux</td>
+    						<td>Apache</td>
+      						<td>MySQL</td>
+      						<td>PHP</td>
+    					</tr>
+				    	<tr>
+				        	<td colspan="4">
+				            	Bootstrap was used to give a UI-challenged developer training wheels.
+				        	</td>
+				    	</tr>
+					</table>
+		        </div>
+		    </div>
+	    </div>
+	</footer>
+	<!-- jQuery and Bootstrap js-->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
