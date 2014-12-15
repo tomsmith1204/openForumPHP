@@ -57,12 +57,7 @@
 		 			</div>
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-						<li class="active">
-							<a href="index.php">
-								Home 
-								<span class="sr-only">(current)</span>
-							</a>
-						</li>
+						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="forum.php">Forum</a></li>
 						<li><a href="userlist.php">User List</a></li>
 						<li><a href="forum.php">Subscriptions <span class="badge">12</span></a></li>	      		
