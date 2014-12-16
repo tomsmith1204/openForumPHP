@@ -6,7 +6,7 @@
     *        tomsmith1204@gmail.com       *
     ***************************************
 */
-	//create_cat.php
+
 	include 'modules/mySQLConnector.php';
 	include 'modules/header.php';
 

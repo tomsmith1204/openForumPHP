@@ -10,7 +10,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-3">
-					<span><em>Copyright &copy; <script SRC="js/copyright.js"></script> Thomas Smith</em></span>
+					<span><em>Copyright &copy; <?php echo getCurrentTime('Y');?> Thomas Smith</em></span>
 					<br><br>
 					This software is offered free of charge under Creative Commons Attribution 3.0 United States <a href="https://creativecommons.org/licenses/by/3.0/us/">(CC BY 3.0 US)</a>.
 					<br><br>
@@ -54,9 +54,9 @@
 	    </div>
 	</footer>
 	<!-- jQuery and Bootstrap js-->
-	<script src="js/jquery-1.11.1.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script SRC="js/newThread.js"></script>
+	<script src="frameworks/jquery-1.11.1.min.js"></script>
+	<script src="frameworks/bootstrap/js/bootstrap.min.js"></script>
+	<script SRC="modules/functions.js"></script>
 </body>
 </html>
 <!-- END FOOTER FILE -->
