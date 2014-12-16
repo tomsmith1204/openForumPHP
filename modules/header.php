@@ -12,7 +12,7 @@
 <head>
 	<meta charset="utf-8"name="viewport" content="width=device-width, initial-scale=1">
 	<title>openForum</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">	
+    <link href="frameworks/bootstrap/css/bootstrap.min.css" rel="stylesheet">	
     	<link rel="stylesheet" href="css/styles.css">
     	<?php include('login.php');
 
@@ -53,7 +53,7 @@
 			</div>
 		</nav>
 		<div class="container-fluid">
-			<h1><a href="index.php"><span class="black">open</span>Forum</a></h1>
+			<h1><a href="index.php"><span class="black">open</span>Forum.</a></h1>
 		</div>
 
 		<nav class="navbar navbar-default" role="navigation">
@@ -72,7 +72,7 @@
 						<li class="active"><a href="index.php">Home</a></li>
 						<li><a href="forum.php">Forum</a></li>
 						<li><a href="userlist.php">User List</a></li>
-						<li><a href="forum.php">Subscriptions <span class="badge">12</span></a></li>	      		
+						<li><a href="subscriptions.php">Subscriptions <span class="badge">12</span></a></li>	      		
 					</ul>
 					<form class="navbar-form navbar-right" role="search">
 						<div class="form-group">
