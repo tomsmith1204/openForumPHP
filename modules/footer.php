@@ -1,3 +1,10 @@
+<!--
+    *****CREDITS: PLEASE DO NOT DELETE*****
+    *       Written by Thomas Smith       *
+    *                2015                 *
+    *        tomsmith1204@gmail.com       *
+    ***************************************
+-->
 <!-- BEGIN FOOTER FILE -->
 <footer>
 		<div class="container-fluid">

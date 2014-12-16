@@ -1,6 +1,16 @@
 <?php
-	include 'mySQLConnector.php';
+/*
+    *****CREDITS: PLEASE DO NOT DELETE*****
+    *       Written by Thomas Smith       *
+    *                2015                 *
+    *        tomsmith1204@gmail.com       *
+    ***************************************
+*/
 	session_start();
+	include 'mySQLConnector.php';
+
+
+	//do this stuff when user hits 'submit'
 	if (isset($_POST['submit'])) {
 
 		//get username from session and select corresponding userID from DB
@@ -23,7 +33,6 @@
 	
 		//peaceout
 		mysql_close($connection);
-
 		header("location: ../forum.php");
 	}
 ?>

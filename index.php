@@ -1,4 +1,11 @@
 <?php
+/*
+    *****CREDITS: PLEASE DO NOT DELETE*****
+    *       Written by Thomas Smith       *
+    *                2015                 *
+    *        tomsmith1204@gmail.com       *
+    ***************************************
+*/
 	//create_cat.php
 	include 'modules/mySQLConnector.php';
 	include 'modules/header.php';
@@ -81,4 +88,7 @@
 	</div>';
 
 	include 'modules/footer.php';
+
+    //peaceout
+    mysql_close($connection);
 ?>

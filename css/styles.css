@@ -1,4 +1,12 @@
-GENERAL STYLES*/
+/*
+    *****CREDITS: PLEASE DO NOT DELETE*****
+    *       Written by Thomas Smith       *
+    *                2015                 *
+    *        tomsmith1204@gmail.com       *
+    ***************************************
+*/
+
+/*GENERAL STYLES*/
 .table-striped>tbody>tr:nth-child(odd)>td, 
 .table-striped>tbody>tr:nth-child(odd)>th {
    background-color: #e7e7e7;

@@ -1,4 +1,12 @@
+<!--
+    *****CREDITS: PLEASE DO NOT DELETE*****
+    *       Written by Thomas Smith       *
+    *                2015                 *
+    *        tomsmith1204@gmail.com       *
+    ***************************************
+-->
 <!-- BEGIN HEADER FILE -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +16,10 @@
     	<link rel="stylesheet" href="css/styles.css">
     	<?php include('login.php');
 
+    		/***
+    		*Check to see if a user session is active, choose which 
+    		*element to show; welcome bar or login bar.
+    		*/
 			if(isset($_SESSION['login_user']) && !empty($_SESSION['login_user'])) {
 				$hidelogin = 1;
 				echo '<style>
