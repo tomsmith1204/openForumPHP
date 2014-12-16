@@ -1,4 +1,16 @@
 <?php
+<<<<<<< HEAD
+=======
+
+/*
+	*****CREDITS: PLEASE DO NOT DELETE*****
+	*	 Written by Thomas Smith      *
+	*		  2015                *
+	*	 tomsmith1204@gmail.com       *
+	***************************************
+*/	
+
+>>>>>>> 690804f25d67e2f62acb932858a495f0e9ca9f0b
 /*
     *****CREDITS: PLEASE DO NOT DELETE*****
     *       Written by Thomas Smith       *
