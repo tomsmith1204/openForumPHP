@@ -102,8 +102,10 @@
 						*/
 						while ($row = mysql_fetch_array($query)) {
 					        $user = $row['User_Name'];
+					        $posts = $row['Post_Count'];
 					        echo "<tr>";
 					        echo "<td>".$user."</td>";
+					        echo "<td>".$posts." Posts</td>";
 					        echo "</tr>";
 					   	}
 
