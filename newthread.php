@@ -61,7 +61,7 @@
 									</tr>
 									<tr>
 										<td colspan="4">
-										Provided by <a href="http://www.seanau.com">Seanau</a>.
+										Provided by <a href="http://www.seanau.com">seanau</a>.
 										</td>
 								</table>
 							</div>
