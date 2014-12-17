@@ -59,6 +59,10 @@
 										<td><img src="assets/emoticons/Smiley-23_32.png"></td>
 										<td><img src="assets/emoticons/Smiley-24_32.png"></td>
 									</tr>
+									<tr>
+										<td colspan="4">
+										Provided by <a href="http://www.seanau.com">Seanau</a>.
+										</td>
 								</table>
 							</div>
 						</div>
