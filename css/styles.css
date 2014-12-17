@@ -22,6 +22,11 @@
 	height: 20px;
 }
 
+.panel-openForum-main > .panel-heading {
+  color: #fff;
+  background-color: #3f4345;
+  border-color: #3f4345;
+}
 /*HEADER STYLES*/
 header {
 

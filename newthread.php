@@ -13,59 +13,58 @@
 	
 	<div class="container">
 		<div class ="row">
-				<div class="panel-heading">
-					<h3 class="panel-title">Create a New Topic</h3>
+					<h1>speak your mind.</h1>
 				</div>
 				<div class="panel-body">
-					<div class="col-md-2 text-center">
-						<div class="panel panel-default">
+					<div class="col-md-3 text-center">
+						<div class="panel panel-default panel-openForum-main">
 							<div class="panel-heading">
 								<h3 class="panel-title">Emoticons</h3>
 							</div>
 							<div class="panel-body">
 								<table class="table">
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-1_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-2_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-3_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-4_32.png"></td>
 									</tr>
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-5_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-6_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-7_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-8_32.png"></td>
 									</tr>
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-9_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-10_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-11_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-12_32.png"></td>
 									</tr>
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-25_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-14_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-26_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-16_32.png"></td>
 									</tr>
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-17_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-18_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-19_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-20_32.png"></td>
 									</tr>
 									<tr>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
-										<td> :) </td>
+										<td><img src="assets/emoticons/Smiley-27_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-22_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-23_32.png"></td>
+										<td><img src="assets/emoticons/Smiley-24_32.png"></td>
 									</tr>
 								</table>
 							</div>
 						</div>
 					</div>
 					<div class="col-md-5 text-center">
-						<div class="panel panel-info">
+						<div class="panel panel-default panel-openForum-main">
 							<div class="panel-heading">
 								<h3 class="panel-title">Thread Content</h3>
 							</div>

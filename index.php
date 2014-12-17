@@ -10,16 +10,19 @@
 	include 'modules/mySQLConnector.php';
 	include 'modules/header.php';
 
+	//get top 5 posters
     $query = mysql_query("SELECT User_Name, Post_Count
                 FROM USERS
-                GROUP BY Post_Count DESC");
+                GROUP BY Post_Count DESC
+                LIMIT 5");
          
 	echo '
 	<br>
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-9">
+					<h1>welcome to the machine.</h1>
                 	<table class="table table-hover">
   						<tr>
   							<th></th>
@@ -64,6 +67,7 @@
 					</table>
                 </div>
                 <div class="col-md-3">
+                	<h1>   </h1>
                     <table class="table table-striped">
                     	<thead>
                             <tr>
@@ -71,14 +75,13 @@
       					    </tr>
                         </thead>
                         <tbody>';
-                        for ($i = 4; $i > 0; $i--){
+                        		
                                 while ($row = mysql_fetch_array($query)) {
                                     $userName = $row['User_Name'];
                                     echo "<tr>";
                                     echo "<td>".$userName."</td>";;
                                     echo "</tr>";
                                 }
-                            }
                         echo '
                         </tbody>    
 					</table>
