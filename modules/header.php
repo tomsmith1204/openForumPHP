@@ -53,7 +53,7 @@
 			</div>
 		</nav>
 		<div class="container-fluid">
-			<h1><a href="index.php"><span class="black">open</span>Forum.</a></h1>
+			<h1><span class="black">open</span>Forum.</h1>
 		</div>
 
 		<nav class="navbar navbar-default" role="navigation">
